@@ -75,7 +75,9 @@
   margin-bottom: 8px;
   position: relative;
 }
-
+.modal-form-field:has(.modal-form-comment) {
+  margin-bottom: 16px;
+}
 .modal-form-label {
   display: block;
   font-size: 12px;
